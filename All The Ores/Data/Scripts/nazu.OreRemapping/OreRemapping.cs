@@ -40,6 +40,7 @@ namespace nazu.OreRemapping
 
         for (int i = 0; i < oreList.Count; i++)
         {
+          var oreMap = oreList[i];
           //  Tier 1
           //      Easy start
           if (oreMap.Value == 200 && oreMap.Type.Contains("Iron_02")) { oreMap.Depth = 20; }
