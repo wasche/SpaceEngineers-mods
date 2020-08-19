@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Description>Description_InteriorLight</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\InteriorLight.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="4" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>InteriorLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="1" Max="20" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <Flare>InteriorLight</Flare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockSmallLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Description>Description_InteriorLight</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-1" />
+      <Model>Models\Cubes\Large\InteriorLight.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>InteriorLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <Flare>InteriorLightSmall</Flare>
+      <LightRadius Min="1" Max="10" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <LightGlare>GlareLsInteriorLight</LightGlare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

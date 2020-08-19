@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+    <ContainerType CountMin="2" CountMax="4">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>PersonalContainerSmall</SubtypeId>
+      </Id>
+      <Items>
+        <!-- same as vanilla, but bumped the min from 0 to 5 -->
+        <Item AmountMin="5" AmountMax="1000">
+          <Frequency>1</Frequency>
+          <Id>
+            <TypeId>PhysicalObject</TypeId>
+            <SubtypeId>SpaceCredit</SubtypeId>
+          </Id>
+        </Item>
+
+        <!-- kept med and power kits same as vanilla -->
+        <Item AmountMin="5" AmountMax="10">
+          <Frequency>0.1</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Medkit</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="5" AmountMax="10">
+          <Frequency>0.1</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Powerkit</SubtypeId>
+          </Id>
+        </Item>
+
+        <!-- kept lv2 tools same as vanilla -->
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.05</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>HandDrill2Item</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.05</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>AngleGrinder2Item</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.05</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>Welder2Item</SubtypeId>
+          </Id>
+        </Item>
+
+        <!-- Add lv3 tools with slightly lower chance -->
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.03</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>HandDrill3Item</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.03</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>AngleGrinder3Item</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.03</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>Welder3Item</SubtypeId>
+          </Id>
+        </Item>
+
+        <!-- Add lv4 tools with tiny chance -->
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.01</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>HandDrill3Item</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.01</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>AngleGrinder3Item</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1" AmountMax="1">
+          <Frequency>0.01</Frequency>
+          <Id>
+            <TypeId>PhysicalGunObject</TypeId>
+            <SubtypeId>Welder3Item</SubtypeId>
+          </Id>
+        </Item>
+
+        <!--
+          Removed vanilla components:
+            - .1 motor, 5-10
+            - .25 steel plate, 50-100
+            - .2 construction comp., 25-50
+            - .2 interior plate, 50-100
+            - .1 computer, 25-50
+        -->
+        <!--
+          motor = 6.67 iron ingot + 1.67 nickel ingot
+          steel plate = 7 iron ingot
+          construction comp. = 2.67 iron ingot
+          interior plate = 1 iron ingot
+          computer = .17 iron ingot + .07 silicon ingot
+        -->
+        <!--
+          Ore conversion:
+          - iron: 70%
+          - nickel: 40%
+          - silicon: 70%
+          - cobalt: 30%
+          - magnesium: 0.7%
+          - silver: 10%
+          - gold: 1%
+          - platinum: 0.5%
+          - uranium: 1%
+
+          stone is 3% iron, .4% silicon, .24% nickel
+          or 4:1 iron:nickel, 2.5:1 iron:silicon
+        -->
+        <!--
+          Vanilla raw material equivalents:
+          - motor: 33.35-66.7 iron ingots + 8.35-16.7 nickel ingots or 47.64-95.29 iron ore + 20.875-41.75 nickel ore
+          - steel plate: 350-700 iron ingots or 500-1000 iron ore
+          - construction comp.: 66.75-133.5 iron ingots
+          - interior plate: 50-100 iron ingots
+          - computer: 4.25-8.5 iron ingots
+        -->
+
+        <!--
+          Add ores/ingots with ores slightly more common than ingots
+          Tier 1 - iron, nickel, silicon
+          Tier 2 - cobalt, magnesium, silver
+          Tier 3 - gold, platinum, uranium
+        -->
+        <!-- Tier 1 -->
+        <!-- Iron -->
+        <Item AmountMin="75" AmountMax="1000">
+          <Frequency>0.3</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Iron</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="50" AmountMax="700">
+          <Frequency>0.225</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Iron</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Nickel -->
+        <Item AmountMin="31.25" AmountMax="437.5">
+          <Frequency>0.3</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Nickel</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="12.5" AmountMax="175">
+          <Frequency>0.225</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Nickel</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Silicon -->
+        <Item AmountMin="28.57" AmountMax="400">
+          <Frequency>0.3</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Silicon</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="20" AmountMax="280">
+          <Frequency>0.225</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Silicon</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Tier 2 -->
+        <!-- Cobalt -->
+        <Item AmountMin="50" AmountMax="700">
+          <Frequency>0.2</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Cobalt</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="15" AmountMax="210">
+          <Frequency>0.15</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Cobalt</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Magnesium -->
+        <Item AmountMin="500" AmountMax="7000">
+          <Frequency>0.2</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Magnesium</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="3.5" AmountMax="52.5">
+          <Frequency>0.15</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Magnesium</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Silver -->
+        <Item AmountMin="150" AmountMax="2100">
+          <Frequency>0.2</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Silver</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="15" AmountMax="210">
+          <Frequency>0.15</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Silver</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Tier 3 -->
+        <!-- Gold -->
+        <Item AmountMin="375" AmountMax="5250">
+          <Frequency>0.18</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Gold</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="3.75" AmountMax="52.5">
+          <Frequency>0.12</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Gold</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Platinum -->
+        <Item AmountMin="7.5" AmountMax="105">
+          <Frequency>0.18</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Platinum</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin=".0375" AmountMax=".525">
+          <Frequency>0.12</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Platinum</SubtypeId>
+          </Id>
+        </Item>
+        <!-- Uranium -->
+        <Item AmountMin="3.75" AmountMax="52.5">
+          <Frequency>0.18</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Uranium</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin=".0375" AmountMax=".525">
+          <Frequency>0.12</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Uranium</SubtypeId>
+          </Id>
+        </Item>
+      </Items>
+    </ContainerType>
+  </ContainerTypes>
+</Definitions>
