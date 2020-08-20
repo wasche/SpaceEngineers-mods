@@ -115,13 +115,26 @@ namespace nazu.OreRemapping
           if (oreMap.Value == 184 && oreMap.Type.Contains("Gold_01")) { oreMap.Start = 570; oreMap.Depth = 200; }
           if (oreMap.Value == 188 && oreMap.Type.Contains("Gold_01")) { oreMap.Start = 520; oreMap.Depth = 150; }
           //      Pt 1
-          if (oreMap.Value == 192 && oreMap.Type.Contains("Platinum_01") { oreMap.Start = 1050; oreMap.Depth = 400; }
-          if (oreMap.Value == 196 && oreMap.Type.Contains("Platinum_01") { oreMap.Start = 1151; oreMap.Depth = 300; }
-          if (oreMap.Value == 208 && oreMap.Type.Contains("Platinum_01") { oreMap.Start = 1253; oreMap.Depth = 240; }
+          if (oreMap.Value == 192 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1050; oreMap.Depth = 400; }
+          if (oreMap.Value == 196 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1151; oreMap.Depth = 300; }
+          if (oreMap.Value == 208 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1253; oreMap.Depth = 240; }
           //      Pt 2
-          if (oreMap.Value == 212 && oreMap.Type.Contains("Platinum_01") { oreMap.Start = 1110; oreMap.Depth = 300; }
-          if (oreMap.Value == 217 && oreMap.Type.Contains("Platinum_01") { oreMap.Start = 1214; oreMap.Depth = 200; }
+          if (oreMap.Value == 212 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1110; oreMap.Depth = 300; }
+          if (oreMap.Value == 217 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1214; oreMap.Depth = 200; }
           if (oreMap.Value == 222 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1319; oreMap.Depth = 150; }
+
+          // revert the Mg->Ice change
+          if (oreMap.Value == 132 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Magnesium_01"; oreMap.Start = 553; oreMap.Depth = 307; }
+          if (oreMap.Value == 136 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Magnesium_01"; oreMap.Start = 555; oreMap.Depth = 248; }
+          if (oreMap.Value == 140 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Magnesium_01"; oreMap.Start = 559; oreMap.Depth = 210; }
+          // revert the U->Ice change
+          if (oreMap.Value == 144 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Uraninite_01"; oreMap.Start = 432; oreMap.Depth = 350; }
+          if (oreMap.Value == 148 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Uraninite_01"; oreMap.Start = 435; oreMap.Depth = 300; }
+          if (oreMap.Value == 152 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Uraninite_01"; oreMap.Start = 438; oreMap.Depth = 250; }
+          // revert the U->Co change
+          if (oreMap.Value == 156 && oreMap.Type.Contains("Cobalt_01")) { oreMap.Type = "Uraninite_01"; oreMap.Start = 580; oreMap.Depth = 250; }
+          if (oreMap.Value == 160 && oreMap.Type.Contains("Cobalt_01")) { oreMap.Type = "Uraninite_01"; oreMap.Start = 589; oreMap.Depth = 200; }
+          if (oreMap.Value == 164 && oreMap.Type.Contains("Cobalt_01")) { oreMap.Type = "Uraninite_01"; oreMap.Start = 596; oreMap.Depth = 110; }
         }
 
         planet.OreMappings = oreList.ToArray();
