@@ -3,80 +3,76 @@
   <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
     <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="EarthSnowArea" />
     <Options>
-      <Option Chance="0.25">
+      <Option Chance="0.30">
         <!-- No change -->
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
       </Option>
-      <Option Chance="0.03">
-        <Change From="Iron_01" To="Platinum_01" />
-        <Change From="Iron_02" To="Platinum_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Iron_01" To="Uraninite_01" />
-        <Change From="Iron_02" To="Uraninite_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Iron_01" To="Gold_01" />
-        <Change From="Iron_02" To="Gold_01" />
-      </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Iron_01" To="Magnesium_01" />
         <Change From="Iron_02" To="Magnesium_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Iron_01" To="Platinum_01" />
+        <Change From="Iron_02" To="Platinum_01" />
+      </Option>
+      <Option Chance="0.04">
+        <Change From="Iron_01" To="Gold_01" />
+        <Change From="Iron_02" To="Gold_01" />
       </Option>
     </Options>
   </Definition>
   <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
     <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="EarthForestArea" />
     <Options>
-      <Option Chance="0.25">
+      <Option Chance="0.30">
         <!-- No change -->
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
       </Option>
-      <Option Chance="0.03">
-        <Change From="Iron_01" To="Platinum_01" />
-        <Change From="Iron_02" To="Platinum_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Iron_01" To="Uraninite_01" />
-        <Change From="Iron_02" To="Uraninite_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Iron_01" To="Gold_01" />
-        <Change From="Iron_02" To="Gold_01" />
-      </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.06">
         <Change From="Iron_01" To="Magnesium_01" />
         <Change From="Iron_02" To="Magnesium_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Iron_01" To="Platinum_01" />
+        <Change From="Iron_02" To="Platinum_01" />
+      </Option>
+      <Option Chance="0.04">
+        <Change From="Iron_01" To="Gold_01" />
+        <Change From="Iron_02" To="Gold_01" />
+      </Option>
+      <Option Chance="0.04">
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
@@ -86,45 +82,44 @@
       <Option Chance="0.25">
         <Change From="Stone" To="DesertRocks" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="DesertRocks" />
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="DesertRocks" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
       </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="DesertRocks" />
-        <Change From="Iron_01" To="Platinum_01" />
-        <Change From="Iron_02" To="Platinum_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="DesertRocks" />
-        <Change From="Iron_01" To="Uraninite_01" />
-        <Change From="Iron_02" To="Uraninite_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="DesertRocks" />
-        <Change From="Iron_01" To="Gold_01" />
-        <Change From="Iron_02" To="Gold_01" />
-      </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Stone" To="DesertRocks" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.10">
         <Change From="Stone" To="DesertRocks" />
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.06">
         <Change From="Stone" To="DesertRocks" />
         <Change From="Iron_01" To="Magnesium_01" />
         <Change From="Iron_02" To="Magnesium_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Stone" To="DesertRocks" />
+        <Change From="Iron_01" To="Platinum_01" />
+        <Change From="Iron_02" To="Platinum_01" />
+      </Option>
+      <Option Chance="0.04">
+        <Change From="Stone" To="DesertRocks" />
+        <Change From="Iron_01" To="Gold_01" />
+        <Change From="Iron_02" To="Gold_01" />
+      </Option>
+      <Option Chance="0.04">
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
@@ -134,12 +129,12 @@
       <Option Chance="0.25">
         <Change From="Stone" To="MarsRocks" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
@@ -159,20 +154,25 @@
         <Change From="Iron_01" To="Gold_01" />
         <Change From="Iron_02" To="Gold_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.04">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Magnesium_01" />
         <Change From="Iron_02" To="Magnesium_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Stone" To="MarsRocks" />
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
@@ -182,10 +182,30 @@
       <Option Chance="0.15">
         <Change From="Stone" To="MoonRocks" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="MoonRocks" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="MoonRocks" />
+        <Change From="Iron_01" To="Gold_01" />
+        <Change From="Iron_02" To="Gold_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="MoonRocks" />
+        <Change From="Iron_01" To="Silver_01" />
+        <Change From="Iron_02" To="Silver_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Stone" To="MoonRocks" />
+        <Change From="Iron_01" To="Cobalt_01" />
+        <Change From="Iron_02" To="Cobalt_01" />
+      </Option>
+      <Option Chance="0.04">
+        <Change From="Stone" To="MoonRocks" />
+        <Change From="Iron_01" To="Magnesium_01" />
+        <Change From="Iron_02" To="Magnesium_01" />
       </Option>
       <Option Chance="0.03">
         <Change From="Stone" To="MoonRocks" />
@@ -197,25 +217,10 @@
         <Change From="Iron_01" To="Uraninite_01" />
         <Change From="Iron_02" To="Uraninite_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.05">
         <Change From="Stone" To="MoonRocks" />
-        <Change From="Iron_01" To="Gold_01" />
-        <Change From="Iron_02" To="Gold_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="MoonRocks" />
-        <Change From="Iron_01" To="Cobalt_01" />
-        <Change From="Iron_02" To="Cobalt_01" />
-      </Option>
-      <Option Chance="0.1">
-        <Change From="Stone" To="MoonRocks" />
-        <Change From="Iron_01" To="Silver_01" />
-        <Change From="Iron_02" To="Silver_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="MoonRocks" />
-        <Change From="Iron_01" To="Magnesium_01" />
-        <Change From="Iron_02" To="Magnesium_01" />
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
@@ -225,10 +230,25 @@
       <Option Chance="0.15">
         <Change From="Stone" To="Ice" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="Ice" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="Ice" />
+        <Change From="Iron_01" To="Gold_01" />
+        <Change From="Iron_02" To="Gold_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="Ice" />
+        <Change From="Iron_01" To="Silver_01" />
+        <Change From="Iron_02" To="Silver_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="Ice" />
+        <Change From="Iron_01" To="Magnesium_01" />
+        <Change From="Iron_02" To="Magnesium_01" />
       </Option>
       <Option Chance="0.03">
         <Change From="Stone" To="Ice" />
@@ -240,25 +260,10 @@
         <Change From="Iron_01" To="Uraninite_01" />
         <Change From="Iron_02" To="Uraninite_01" />
       </Option>
-      <Option Chance="0.1">
-        <Change From="Stone" To="Ice" />
-        <Change From="Iron_01" To="Gold_01" />
-        <Change From="Iron_02" To="Gold_01" />
-      </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.04">
         <Change From="Stone" To="Ice" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
-      </Option>
-      <Option Chance="0.1">
-        <Change From="Stone" To="Ice" />
-        <Change From="Iron_01" To="Silver_01" />
-        <Change From="Iron_02" To="Silver_01" />
-      </Option>
-      <Option Chance="0.1">
-        <Change From="Stone" To="Ice" />
-        <Change From="Iron_01" To="Magnesium_01" />
-        <Change From="Iron_02" To="Magnesium_01" />
       </Option>
     </Options>
   </Definition>
@@ -268,15 +273,30 @@
       <Option Chance="0.15">
         <Change From="Stone" To="MarsRocks" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="MarsRocks" />
+        <Change From="Iron_01" To="Gold_01" />
+        <Change From="Iron_02" To="Gold_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="MarsRocks" />
+        <Change From="Iron_01" To="Silver_01" />
+        <Change From="Iron_02" To="Silver_01" />
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="MarsRocks" />
+        <Change From="Iron_01" To="Magnesium_01" />
+        <Change From="Iron_02" To="Magnesium_01" />
       </Option>
       <Option Chance="0.03">
         <Change From="Stone" To="MarsRocks" />
@@ -288,25 +308,15 @@
         <Change From="Iron_01" To="Uraninite_01" />
         <Change From="Iron_02" To="Uraninite_01" />
       </Option>
-      <Option Chance="0.1">
-        <Change From="Stone" To="MarsRocks" />
-        <Change From="Iron_01" To="Gold_01" />
-        <Change From="Iron_02" To="Gold_01" />
-      </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.04">
         <Change From="Stone" To="MarsRocks" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.1">
+      <Option Chance="0.05">
         <Change From="Stone" To="MarsRocks" />
-        <Change From="Iron_01" To="Silver_01" />
-        <Change From="Iron_02" To="Silver_01" />
-      </Option>
-      <Option Chance="0.1">
-        <Change From="Stone" To="MarsRocks" />
-        <Change From="Iron_01" To="Magnesium_01" />
-        <Change From="Iron_02" To="Magnesium_01" />
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
@@ -317,45 +327,50 @@
       <Option Chance="0.25">
         <Change From="Stone" To="AlienRockyMountain" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="AlienRockyMountain" />
-        <Change From="Iron_01" To="Platinum_01" />
-        <Change From="Iron_02" To="Platinum_01" />
       </Option>
       <Option Chance="0.1">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Uraninite_01" />
         <Change From="Iron_02" To="Uraninite_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
+        <Change From="Stone" To="AlienRockyMountain" />
+        <Change From="Iron_01" To="Platinum_01" />
+        <Change From="Iron_02" To="Platinum_01" />
+      </Option>
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Gold_01" />
         <Change From="Iron_02" To="Gold_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Iron_01" To="Magnesium_01" />
         <Change From="Iron_02" To="Magnesium_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Stone" To="AlienRockyMountain" />
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
@@ -366,23 +381,17 @@
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="AlienRockyMountain" />
-        <Change From="Snow" To="AlienSnow" />
-        <Change From="Iron_01" To="Platinum_01" />
-        <Change From="Iron_02" To="Platinum_01" />
       </Option>
       <Option Chance="0.1">
         <Change From="Stone" To="AlienRockyMountain" />
@@ -390,25 +399,31 @@
         <Change From="Iron_01" To="Uraninite_01" />
         <Change From="Iron_02" To="Uraninite_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
+        <Change From="Stone" To="AlienRockyMountain" />
+        <Change From="Snow" To="AlienSnow" />
+        <Change From="Iron_01" To="Platinum_01" />
+        <Change From="Iron_02" To="Platinum_01" />
+      </Option>
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Gold_01" />
         <Change From="Iron_02" To="Gold_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Magnesium_01" />
@@ -422,23 +437,17 @@
       <Option Chance="0.25">
         <Change From="Stone" To="AlienRockyMountain" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Nickel_01" />
         <Change From="Iron_02" To="Nickel_01" />
       </Option>
-      <Option Chance="0.25">
+      <Option Chance="0.15">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Silicon_01" />
         <Change From="Iron_02" To="Silicon_01" />
-      </Option>
-      <Option Chance="0.03">
-        <Change From="Stone" To="AlienRockyMountain" />
-        <Change From="Snow" To="AlienSnow" />
-        <Change From="Iron_01" To="Platinum_01" />
-        <Change From="Iron_02" To="Platinum_01" />
       </Option>
       <Option Chance="0.1">
         <Change From="Stone" To="AlienRockyMountain" />
@@ -446,29 +455,41 @@
         <Change From="Iron_01" To="Uraninite_01" />
         <Change From="Iron_02" To="Uraninite_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
+        <Change From="Stone" To="AlienRockyMountain" />
+        <Change From="Snow" To="AlienSnow" />
+        <Change From="Iron_01" To="Platinum_01" />
+        <Change From="Iron_02" To="Platinum_01" />
+      </Option>
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Gold_01" />
         <Change From="Iron_02" To="Gold_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Cobalt_01" />
         <Change From="Iron_02" To="Cobalt_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Silver_01" />
         <Change From="Iron_02" To="Silver_01" />
       </Option>
-      <Option Chance="0.03">
+      <Option Chance="0.05">
         <Change From="Stone" To="AlienRockyMountain" />
         <Change From="Snow" To="AlienSnow" />
         <Change From="Iron_01" To="Magnesium_01" />
         <Change From="Iron_02" To="Magnesium_01" />
+      </Option>
+      <Option Chance="0.05">
+        <Change From="Stone" To="AlienRockyMountain" />
+        <Change From="Snow" To="AlienSnow" />
+        <Change From="Iron_01" To="Ice_01" />
+        <Change From="Iron_02" To="Ice_01" />
       </Option>
     </Options>
   </Definition>
