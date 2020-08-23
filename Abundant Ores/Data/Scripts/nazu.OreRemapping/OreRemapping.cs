@@ -115,13 +115,13 @@ namespace nazu.OreRemapping
           if (oreMap.Value == 184 && oreMap.Type.Contains("Gold_01")) { oreMap.Start = 570; oreMap.Depth = 200; }
           if (oreMap.Value == 188 && oreMap.Type.Contains("Gold_01")) { oreMap.Start = 520; oreMap.Depth = 150; }
           //      Pt 1
-          if (oreMap.Value == 192 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1050; oreMap.Depth = 400; }
-          if (oreMap.Value == 196 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1151; oreMap.Depth = 300; }
-          if (oreMap.Value == 208 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1253; oreMap.Depth = 240; }
+          if (oreMap.Value == 192 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 650; oreMap.Depth = 400; }
+          if (oreMap.Value == 196 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 651; oreMap.Depth = 300; }
+          if (oreMap.Value == 208 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 653; oreMap.Depth = 240; }
           //      Pt 2
-          if (oreMap.Value == 212 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1110; oreMap.Depth = 300; }
-          if (oreMap.Value == 217 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1214; oreMap.Depth = 200; }
-          if (oreMap.Value == 222 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 1319; oreMap.Depth = 150; }
+          if (oreMap.Value == 212 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 610; oreMap.Depth = 300; }
+          if (oreMap.Value == 217 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 614; oreMap.Depth = 200; }
+          if (oreMap.Value == 222 && oreMap.Type.Contains("Platinum_01")) { oreMap.Start = 619; oreMap.Depth = 150; }
 
           // revert the Mg->Ice change
           if (oreMap.Value == 132 && oreMap.Type.Contains("Ice_01")) { oreMap.Type = "Magnesium_01"; oreMap.Start = 553; oreMap.Depth = 307; }
