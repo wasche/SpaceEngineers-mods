@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClassEntries>
+        <Entry Class="Components" BlueprintSubtypeId="DensePowerCell" />
+        <Entry Class="Components" BlueprintSubtypeId="DeepCyclePowerCell" />
+        <Entry Class="Components" BlueprintSubtypeId="MagnesiumPowerCell" />
+        <Entry Class="Components" BlueprintSubtypeId="CapacitorPowerCell" />
+
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockT1" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockT2" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockT3" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockT4" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockT1" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockT2" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockT3" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockT4" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockSmallBatteryBlockT1" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockSmallBatteryBlockT2" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockSmallBatteryBlockT3" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockSmallBatteryBlockT4" />
+    </BlueprintClassEntries>
+</Definitions>

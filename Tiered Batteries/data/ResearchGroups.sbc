@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="TieredBatteries" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT1" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT2" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT3" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT4" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT1" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT2" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT3" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT4" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT1" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT2" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT3" />
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT4" />
+      </Members>
+    </ResearchGroup>
+  </ResearchGroups>
+</Definitions>

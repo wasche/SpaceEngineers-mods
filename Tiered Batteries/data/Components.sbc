@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DensePowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Dense Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <!-- Vanilla Mass: 25, Volume: 40 -->
+      <Mass>40</Mass>
+      <Volume>40</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>14</Health>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>50</MinimumOrderAmount>
+      <MaximumOrderAmount>100</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DeepCyclePowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Deep Cycle Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>40</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>14</Health>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>50</MinimumOrderAmount>
+      <MaximumOrderAmount>100</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MagnesiumPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>40</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>14</Health>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>50</MinimumOrderAmount>
+      <MaximumOrderAmount>100</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CapacitorPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Capacitor Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>40</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>14</Health>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>50</MinimumOrderAmount>
+      <MaximumOrderAmount>100</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
+    </Component>
+  </Components>
+</Definitions>

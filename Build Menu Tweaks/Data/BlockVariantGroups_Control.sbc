@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_Cockpit2</DisplayName>
+      <Description>Description_ControlStation</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="DBSmallBlockFighterCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpitIndustrial" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitIndustrial" />
+        <!-- Open cockpits -->
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="RoverCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoCatwalkGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkWall.dds</Icon>
+      <DisplayName>DisplayName_Block_CatwalkWall</DisplayName>
+      <Description>Description_CatwalkWall</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Catwalk" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkStraight" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkWall" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingEnd" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfRight" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfLeft" />
+        <!-- Struts (2193493004) -->
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedFullBlockStairsStrut" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="CornerStrut" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="2CornerStrut" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LeftCornerStrut" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="RightCornerStrut" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

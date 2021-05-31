@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DensePowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Dense Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Prerequisites>
+        <!-- Vanilla Power Cell: 3.33 Iron, .33 Silicon, .67 Nickel -->
+        <Item Amount="6.67" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.67" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1.33" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DensePowerCell" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DeepCyclePowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Deep Cycle Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Prerequisites>
+        <!-- Vanilla Power Cell: 3.33 Iron, .33 Silicon, .67 Nickel -->
+        <Item Amount="6.67" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.67" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1.33" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DeepCyclePowerCell" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MagnesiumPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Prerequisites>
+        <!-- Vanilla Power Cell: 3.33 Iron, .33 Silicon, .67 Nickel -->
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.67" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1.33" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="MagnesiumPowerCell" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CapacitorPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Capacitor Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Prerequisites>
+        <!-- Vanilla Power Cell: 3.33 Iron, .33 Silicon, .67 Nickel -->
+        <Item Amount="6.67" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.67" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1.33" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="CapacitorPowerCell" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

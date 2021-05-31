@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>22</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+  </ResearchBlocks>
+</Definitions>
