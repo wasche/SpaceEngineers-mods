@@ -15,9 +15,11 @@
             <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontHighPowerLight" />
             <!-- High Power Offset Spotlight (2303516760) -->
             <Block Type="MyObjectBuilder_ReflectorLight" Subtype="HighPowerOffsetSpotlight" />
-            <!-- -->
+            <!-- / -->
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+            <!-- Small Ship Mega Mod Pack (305329302) -->
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="Small_SmallLight" />
             <!-- Offset Interior Light (1670046177) -->
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallOffsetLight" />
             <!-- -->
@@ -32,7 +34,7 @@
             <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
         </Blocks>
     </BlockVariantGroup>
-    
+
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BathroomGroup" />
       <DisplayName>DisplayName_Block_Shower</DisplayName>
