@@ -13,9 +13,6 @@
         <Block Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
         <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
         <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockOffsetDoor" />
-        <!-- Interior Door (880622501) -->
-        <Block Type="MyObjectBuilder_Door" Subtype="InteriorDoor" />
-        <Block Type="MyObjectBuilder_Door" Subtype="InteriorDoorOffset" />
         <!-- Rotary Airlock (1359954841) -->
         <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlock" />
         <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCorner" />
@@ -23,7 +20,7 @@
         <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCornerSmallGrid" />
       </Blocks>
     </BlockVariantGroup>
-    
+
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
       <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
@@ -62,6 +59,12 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1RampSlope" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1RampSlope" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1StairsSlope" />
+        <!-- Grated Catwalks Expansion (2503712170) -->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="GCMGratedStairsWithGratedSides1x1" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="GCMGratedStairs1x2" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="GCMGratedStairsWithGratedSides1x2" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="GCMGratedStairsWithGratedSides1x1Stackable" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="GCMGratedStairsWithGratedSides1x2Stackable" />
       </Blocks>
     </BlockVariantGroup>
 

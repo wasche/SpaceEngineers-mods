@@ -19,6 +19,13 @@
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeLongContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockExtraLargeContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockExtraLargeLongContainer" />
+        <!-- Slim Containers (https://steamcommunity.com/sharedfiles/filedetails/?id=924113345) -->
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SB1x3x3cargo" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SB1x5x5cargo" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LB1x3x3cargo" />
+        <!-- Interface Block (https://steamcommunity.com/sharedfiles/filedetails/?id=2433117767) -->
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="AVTECH_Interface" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="AVTECH_Interface_SG" />
       </Blocks>
     </BlockVariantGroup>
 
@@ -31,13 +38,33 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
         <!-- AQD Conveyor Expansion (1864380341) -->
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorStraightArmored" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorCornerArmored" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorTArmored" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorXArmored" />
-        <!-- More Conveyors (2364016183) -->
+        <!-- Conveyor Adapters (1124114101) -->
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeA" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeB" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="nTLConveyorThickGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+      <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <!-- AQD Conveyor Expansion (1864380341) -->
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorStraightArmored" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorCornerArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorTArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorXArmored" />
         <!-- Conveyor Adapters (1124114101) -->
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeA" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeB" />
@@ -65,6 +92,38 @@
         <!-- Add 3-way and 4-way from MAD More Conveyors (1124114101) -->
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor3WayCorner" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor4WayTee" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeLong" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Small_MediumConveyorTube" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Small_LongConveyorTube" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="nTLConveyorThinGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+        <!-- Conveyor Slant (2364016183) -->
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorSlant" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorSlantsmall" />
+        <!-- AQD Conveyor Expansion (1864380341) -->
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorT" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorX" />
+        <!-- Add 3-way and 4-way from MAD More Conveyors (1124114101) -->
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor3WayCorner" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor4WayTee" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeLong" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Small_MediumConveyorTube" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Small_LongConveyorTube" />
       </Blocks>
     </BlockVariantGroup>
 

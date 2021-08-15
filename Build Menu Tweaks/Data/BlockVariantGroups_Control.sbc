@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlockVariantGroups>
-    
+
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
       <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
@@ -22,6 +22,7 @@
         <Block Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
+        <!-- Rover Cockpit (https://steamcommunity.com/sharedfiles/filedetails/?id=2328844782) -->
       </Blocks>
     </BlockVariantGroup>
 

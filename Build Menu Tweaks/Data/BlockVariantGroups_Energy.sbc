@@ -28,7 +28,7 @@
         <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT4" />
       </Blocks>
     </BlockVariantGroup>
-    
+
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyRenewableGroup" />
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
@@ -37,9 +37,6 @@
       <Blocks>
         <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
         <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-        <!-- Small Ship Mega Mod Pack (305329302) -->
-        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
-        <Block Type="MyObjectBuilder_WindTurbine" Subtype="SmallShipWindTurbine_SEM4" />
         <!-- High Tech Solar Arrays (2221990774) -->
         <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel" />
         <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel" />

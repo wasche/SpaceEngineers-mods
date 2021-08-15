@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlockVariantGroups>
-    
+
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
       <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
@@ -10,9 +10,6 @@
       <Blocks>
         <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
         <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
-        <!-- Small Ship Mega Mod Pack (305329302) -->
-        <Block Type="AirtightHangarDoor" Subtype="HangarDoorSmallShip3x5x3_SEModder4" />
-        <Block Type="AirtightHangarDoor" Subtype="HangarDoorSmallShip1x1x1_SEModder4" />
         <!-- UOH Airtight Hangar Door v1.2 (950048016) -->
         <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="UOH_Hangar_x3" />
         <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="UOH_Hangar_x4" />

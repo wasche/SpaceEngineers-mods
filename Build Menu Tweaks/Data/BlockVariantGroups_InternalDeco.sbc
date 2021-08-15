@@ -18,11 +18,6 @@
             <!-- / -->
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
-            <!-- Small Ship Mega Mod Pack (305329302) -->
-            <Block Type="MyObjectBuilder_InteriorLight" Subtype="Small_SmallLight" />
-            <!-- Offset Interior Light (1670046177) -->
-            <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallOffsetLight" />
-            <!-- -->
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
             <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />

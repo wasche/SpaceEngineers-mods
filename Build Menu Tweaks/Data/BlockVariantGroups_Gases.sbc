@@ -35,11 +35,6 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
-        <!-- Small Ship Mega Mod Pack (305329302) -->
-        <Block Type="OxygenTank" Subtype="LargeHydrogenTank_SEM4" />
-        <Block Type="OxygenTank" Subtype="OxygenTank_SEModder4" />
-        <Block Type="OxygenTank" Subtype="SmallHydrogenTank_SEM4" />
-        <Block Type="OxygenGenerator" Subtype="OxygenGenerator_SEModder4" />
       </Blocks>
     </BlockVariantGroup>
 
