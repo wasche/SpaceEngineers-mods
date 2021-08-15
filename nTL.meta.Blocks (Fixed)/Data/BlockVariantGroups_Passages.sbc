@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+      <DisplayName>DisplayName_Block_Door</DisplayName>
+      <Description>Description_Door</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Door" Subtype="" />
+        <Block Type="MyObjectBuilder_Door" Subtype="SmallDoor" />
+        <Block Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
+        <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+        <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockOffsetDoor" />
+        <!-- Rotary Airlock (1359954841) -->
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlock" />
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCorner" />
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockSmallGrid" />
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCornerSmallGrid" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+      <DisplayName>DisplayName_Block_Stairs</DisplayName>
+      <Description>Description_Stairs</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
+        <!-- More Catwalks -->
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSidedStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSidedRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1StairsSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1StairsSlope" />
+        <!-- -->
+        <Block Type="MyObjectBuilder_Ladder2" Subtype="" />
+        <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
+        <!-- More Catwalks -->
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSidedStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSidedRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1StairsSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1StairsSlope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

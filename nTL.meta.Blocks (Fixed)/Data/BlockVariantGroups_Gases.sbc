@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
+      <Description>Description_OxygenGenerator</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
+        <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
+        <!-- Oxygen Farm -->
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm" />
+        <!-- Hydrogen Farm (961267937) -->
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockHydrogenFarm" />
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="SmallBlockLargeHydrogenFarm" />
+        <!-- Tiered Farms -->
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarmT1" />
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarmT2" />
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarmT3" />
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarmT4" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TankGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirVentGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
+      <DisplayName>DisplayName_Block_AirVent</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_AirVent" Subtype="" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVent" />
+        <!-- Offset Air Vent (2191410738) -->
+        <Block Type="MyObjectBuilder_AirVent" Subtype="AirVentOffset" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVentOffset" />
+        <!-- Conveyor Air Vents (410678202) -->
+        <Block Type="MyObjectBuilder_AirVent" Subtype="ConveyorAirVent" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="ConveyorAirVentSlope" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallConveyorAirVent" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallConveyorAirVentSlope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

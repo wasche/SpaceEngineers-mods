@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+        <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+        <Description>Description_BlockGroup_LightingGroup</Description>
+        <Blocks>
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
+            <!-- High Power Spotlight (1204806594) -->
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontHighPowerLight" />
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontHighPowerLight" />
+            <!-- High Power Offset Spotlight (2303516760) -->
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="HighPowerOffsetSpotlight" />
+            <!-- / -->
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+            <!-- Wasteland -->
+            <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+            <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+        </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BathroomGroup" />
+      <DisplayName>DisplayName_Block_Shower</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Shower.dds</Icon>
+      <Description>Description_Shower</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroomOpen" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockToilet" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroom" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />
+        <!-- Bathroom with door (2227122740) -->
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="Bathroom_door" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

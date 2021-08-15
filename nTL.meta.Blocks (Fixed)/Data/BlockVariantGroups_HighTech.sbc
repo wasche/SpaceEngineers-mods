@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_GravityGroup</DisplayName>
+      <Description>Description_BlockGroup_GravityGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_GravityGenerator" Subtype="" />
+        <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
+        <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassLarge" />
+        <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
+        <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallLarge" />
+        <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallSmall" />
+        <!-- Tiered Gravity Generators () -->
+        <Block Type="MyObjectBuilder_GravityGenerator" Subtype="GravityGeneratorT1" />
+        <Block Type="MyObjectBuilder_GravityGenerator" Subtype="GravityGeneratorT2" />
+        <Block Type="MyObjectBuilder_GravityGenerator" Subtype="GravityGeneratorT3" />
+        <Block Type="MyObjectBuilder_GravityGenerator" Subtype="GravityGeneratorT4" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

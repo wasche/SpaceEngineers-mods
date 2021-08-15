@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_AutomationGroup</DisplayName>
+      <Description>Description_BlockGroup_AutomationGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlock" />
+        <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
+        <Block Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensor" />
+        <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensor" />
+        <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockLarge" />
+        <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockSmall" />
+        <!-- Micro Programmable Block (401530181) -->
+        <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeMicroPB" />
+        <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="MicroPB" />
+        <!-- Micro Timer (400131986) -->
+        <Block Type="MyObjectBuilder_TimerBlock" Subtype="LargeMicroTimer" />
+        <Block Type="MyObjectBuilder_TimerBlock" Subtype="MicroTimer" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

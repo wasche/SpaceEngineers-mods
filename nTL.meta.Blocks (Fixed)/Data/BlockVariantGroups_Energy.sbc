@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Description>Description_Battery</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+        <!-- Huge Battery (2461941910) -->
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock5" />
+        <!-- Tiered Batteries () -->
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT1" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT2" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT3" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT4" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT1" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT2" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT3" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT4" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT1" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT2" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT3" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT4" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyRenewableGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
+      <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+        <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+        <!-- High Tech Solar Arrays (2221990774) -->
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel_Dark" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel_Dark" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel_Black" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel_Black" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel_Centered" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel_Centered" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel_Dark_Centered" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel_Dark_Centered" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="LG_AVTECH_Solar_Panel_Black_Centered" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="SG_AVTECH_Solar_Panel_Black_Centered" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
