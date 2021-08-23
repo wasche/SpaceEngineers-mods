@@ -1,4 +1,6 @@
-
+// [T|G=]name:action:options
+// G=Drill Pistons Forward:extendOrRetract:12.3
+// G=Drill Pistons Lateral:extendOrRetract:12.3
 public void Main(string argument, UpdateType updateSource)
 {
     Me.GetSurface(0).WriteText("", false);
@@ -33,6 +35,7 @@ public void Main(string argument, UpdateType updateSource)
             return;
         }
 
+        // name:extendOrReset:distance:max?:extend speed?:retract speed?
         if("extendOrReset".Equals(parts[1]))
         {
             List<IMyPistonBase> pistons = new List<IMyPistonBase>();
@@ -131,6 +134,49 @@ public void Main(string argument, UpdateType updateSource)
                 }
             }
         }
+        // name:reverse:speed1:speed2
+        else if("reverse".Equals(parts[1]))
+        {
+            Log("reversing " + blocks.Count + " blocks");
+
+            List<IMyPistonBase> pistons = new List<IMyPistonBase>();
+            foreach (IMyTerminalBlock block in blocks)
+            {
+                if (block is IMyPistonBase)
+                {
+                    pistons.Add((IMyPistonBase) block);
+                }
+            }
+            
+            if (parts.Length < 4)
+            {
+                Log("ERR: missing arguments");
+                return;
+            }
+
+            float a = -1F;
+            if (!float.TryParse(parts[2], out a))
+            {
+                Log("ERR: speed1 argument is not a number");
+                return;
+            }
+
+            float b = -1F;
+            if (!float.TryParse(parts[3], out b))
+            {
+                Log("ERR: speed2 argument is not a number");
+                return;
+            }
+
+            foreach (IMyPistonBase piston in pistons)
+            {
+                float v = piston.Velocity;
+                if (nearlyEqual(piston.Velocity, a)) piston.Velocity = -b;
+                else if (nearlyEqual(piston.Velocity, -a)) piston.Velocity = b;
+                else if (nearlyEqual(piston.Velocity, b)) piston.Velocity = -a;
+                else if (nearlyEqual(piston.Velocity, -b)) piston.Velocity = a;
+            }
+        }
         else
         {
             Log("Unknown action: " + parts[1]);
@@ -142,4 +188,16 @@ void Log(string message)
 {
     Echo(message);
     Me.GetSurface(0).WriteText(message + "\n", true);
+}
+
+bool nearlyEqual(float a, float b)
+{
+    if (a.Equals(b)) return true;
+    const float epsilon = 0.00001f;
+    const float normal = (1 << 23) * float.Epsilon;
+    float absA = Math.Abs(a);
+    float absB = Math.Abs(b);
+    float diff = Math.Abs(a - b);
+    if (a == 0 || b == 0 || absA + absB < normal) return diff < (epsilon * normal);
+    return diff / Math.Min((absA + absB), float.MaxValue) < epsilon;
 }
