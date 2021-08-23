@@ -108,7 +108,7 @@ Action getCondition(IMyTextSurfaceProvider provder, string def)
     Log("index: " + idx);
 
     string[] parts = def.Substring(8).Split(':');
-    if (parts.Length < 4)
+    if (parts.Length < 3)
     {
         error = true;
         Log("Invalid condition definition (missing parts): " + def);
@@ -117,7 +117,7 @@ Action getCondition(IMyTextSurfaceProvider provder, string def)
 
     IMyTextSurface surface = provder.GetSurface(idx);
     Func<int> check = getCheckFunc(parts[0], parts[1]);
-    Action<int> action = getActionFunc(surface, parts[2], parts[3], parts.Length > 4 ? parts[4] : null, parts.Length > 5 ? parts[5] : null);
+    Action<int> action = getActionFunc(surface, parts[2], parts.Length > 3 ? parts[3] : null, parts.Length > 4 ? parts[4] : null, parts.Length > 5 ? parts[5] : null);
 
     if (check == null)
     {
@@ -192,6 +192,13 @@ Func<int> getCheckFunc(string name, string property)
             return piston.Velocity > 0 ? 1 : -1;
         };
     }
+    if ("remaining".Equals(property))
+    {
+        return () => (int) blocks.Select(p => ((IMyPistonBase) p).Velocity > 0
+            ? ((IMyPistonBase) p).MaxLimit - ((IMyPistonBase) p).CurrentPosition
+            : -(((IMyPistonBase) p).MinLimit - ((IMyPistonBase) p).CurrentPosition)
+        ).Aggregate((x, y) => x + y);
+    }
 
     error = true;
     Log("Invalid condition definition (unknown condition type): " + property);
@@ -208,6 +215,10 @@ Action<int> getActionFunc(IMyTextSurface surface, string property, string valueA
             else if (b != null && val < 0) surface.BackgroundColor = b.Value;
             else if (c != null && val == 0) surface.BackgroundColor = c.Value;
         };
+    }
+    if ("text".Equals(property))
+    {
+        return (val) => surface.WriteText(val.ToString(), false);
     }
 
     error = true;
