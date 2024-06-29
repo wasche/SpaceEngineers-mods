@@ -35,6 +35,7 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
       </Blocks>
     </BlockVariantGroup>
 

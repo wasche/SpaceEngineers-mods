@@ -13,6 +13,7 @@
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
         <!-- AQD Conveyor Expansion (1864380341) -->
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="AQD_LG_ConveyorAccess" />
         <!-- More Cargo (1699071036) -->
@@ -39,6 +40,7 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyorConverter" />
         <!-- AQD Conveyor Expansion (1864380341) -->
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorStraightArmored" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorCornerArmored" />
@@ -51,15 +53,16 @@
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="nTLConveyorThickGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
-      <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmoredConveyorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorHub.dds</Icon>
+      <DisplayName>DisplayName_Block_ConveyorHub</DisplayName>
       <Description>Description_ConveyorTube</Description>
       <Blocks>
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyorConverter" />
         <!-- AQD Conveyor Expansion (1864380341) -->
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorStraightArmored" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorCornerArmored" />
@@ -68,6 +71,11 @@
         <!-- Conveyor Adapters (1124114101) -->
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeA" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeB" />
+        <!-- (el) Pipes and Tubes (2651746225) -->
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="Tube_1x3x3_x30" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="Tube_1x3x3_x22" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="Tube_1x3x3_x14" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="Tube_1x2x2_x16" />
       </Blocks>
     </BlockVariantGroup>
 
@@ -83,6 +91,10 @@
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeT" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuct" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctCurved" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctT" />
         <!-- Conveyor Slant (2364016183) -->
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorSlant" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorSlantsmall" />
@@ -100,9 +112,9 @@
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="nTLConveyorThinGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
-      <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <DisplayName>DisplayName_Block_ConveyorTube</DisplayName>
       <Description>Description_ConveyorTube</Description>
       <Blocks>
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
@@ -111,6 +123,14 @@
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeT" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeSmallT" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuct" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctSmall" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctCurved" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctSmallCurved" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctT" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctSmallT" />
         <!-- Conveyor Slant (2364016183) -->
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorSlant" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorSlantsmall" />
@@ -141,6 +161,8 @@
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockConveyorCap" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockConveyorCapMedium" />
         <!-- Attachments (516770964) -->
         <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="AttachmentBase" />
         <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="AttachmentBaseSmall" />
